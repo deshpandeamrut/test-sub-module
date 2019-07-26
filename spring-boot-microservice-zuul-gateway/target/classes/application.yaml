@@ -1,0 +1,14 @@
+server:
+  port: ${appPort:9999}
+info.app.version: v1
+# Actuator endpoint path (/admin/info, /admin/health, ...)
+server.servlet-path: /
+management.context-path: /admin
+# ribbon.eureka.enabled: false
+zuul:
+  ignoredPatterns: /**/admin/**, /proxyurl
+#  routes:
+#    zuulDemo1:
+#      path: /**
+# stripPrefix set to true if context path is set to /
+#      stripPrefix: true
