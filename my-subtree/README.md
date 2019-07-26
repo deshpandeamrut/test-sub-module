@@ -1,2 +1,2 @@
 # spring-boot-microservices
-Microservices using spring boot, zuul, eureka
+Microservices using spring boot, zuul, eurekaas
