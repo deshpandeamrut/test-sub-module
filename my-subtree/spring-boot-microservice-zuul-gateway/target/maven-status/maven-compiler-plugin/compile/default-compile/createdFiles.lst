@@ -1,0 +1,2 @@
+com\playground\springbootsecuritybasic\config\AppSecurityConfig.class
+org\spring\boot\microservice\zuul\gateway\ZuulGatewayExampleApplication.class
